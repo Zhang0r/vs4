@@ -9,17 +9,25 @@
 </head>
 <body>
 
-  <header class="navbar-simple">
-    <img src="logo.jpg" alt="Logo">
-    <nav>
-      <a href="index.html">Navbar</a>
-      <a href="index2.html">Responsive Boxes</a>
-      <a href="index3.html">Bootstrap Grid</a>
-      <a href="index4.html">Portfolio</a>
-    </nav>
-  </header>
-
-  <!-- Контент -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="logo.jpg" alt="Logo" width="40"> Site
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Navbar</a></li>
+          <li class="nav-item"><a class="nav-link" href="index2.html">Responsive Boxes</a></li>
+          <li class="nav-item"><a class="nav-link" href="index3.html">Grid</a></li>
+          <li class="nav-item"><a class="nav-link active" href="index4.html">Portfolio</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ 
   <div class="container my-5">
     <h2>About Me</h2>
     
